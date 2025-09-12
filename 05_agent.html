@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>나의 포트폴리오</title>
+  </head>
+  <body>
+    <!-- header: 페이지의 머리글. 로고, 제목, 주요 네비게이션 등이 위치 -->
+    <header>
+      <h1>박고은의 포트폴리오</h1>
+      <p>
+        안녕하세요, <strong>최고의 백엔드 엔지니어</strong>를 꿈꾸는
+        박고은입니다.
+      </p>
+    </header>
+
+    <!-- nav: 다른 페이지로의 링크 등 네비게이션 메뉴를 그룹화 -->
+    <nav>
+      <h2>메뉴</h2>
+      <ul>
+        <li><a href="#introduction">소개</a></li>
+        <li><a href="#skills">보유 기술</a></li>
+        <li><a href="#projects">프로젝트</a></li>
+        <li>
+          <a href="https://github.com" target="_blank">GitHub 방문하기</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- main: 페이지의 핵심 콘텐츠를 담는 영역 -->
+    <main>
+      <!-- section: 문서의 독립적인 구획을 나타냄. 보통 제목을 포함 -->
+      <section id="introduction">
+        <h2>소개</h2>
+        <img src="img/Stage1Capture.png" alt="프로필 이미지" width="150" />
+        <p>
+          저는 문제 해결을 즐기며, 효율적이고 확장 가능한 시스템을 만드는 것에
+          큰 보람을 느낍니다. 새로운 기술을 배우는 것을 좋아합니다.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>보유 기술</h2>
+        <ol>
+          <li>
+            Backend
+            <ul>
+              <li>Java</li>
+              <li>Spring Boot</li>
+              <li>JPA</li>
+            </ul>
+          </li>
+          <li>
+            Frontend
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+            </ul>
+          </li>
+          <li>
+            Database
+            <ul>
+              <li>MySQL</li>
+              <li>PostgreSQL</li>
+            </ul>
+          </li>
+        </ol>
+      </section>
+
+      <section id="projects">
+        <h2>프로젝트 경험</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>프로젝트명</th>
+              <th>기간</th>
+              <th>주요 기술</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>쇼핑몰 프로젝트</td>
+              <td>2023.01 ~ 2023.06</td>
+              <td>Spring Boot, JPA, MySQL</td>
+            </tr>
+            <tr>
+              <td>블로그 프로젝트</td>
+              <td>2023.07 ~ 2023.12</td>
+              <td>Java, Spring, HTML</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+
+    <!-- footer: 페이지의 바닥글. 저작권 정보, 연락처, 관련 링크 등이 위치 -->
+    <footer>
+      <p>&copy; 2024 Park Goeun. All rights reserved.</p>
+      <p>연락처: parkgoeun@google.com</p>
+    </footer>
+  </body>
+</html>
