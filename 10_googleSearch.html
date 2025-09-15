@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구글검색</title>
+  </head>
+  <body>
+    <form action="https://www.google.com/search" method="get">
+      <input type="text" name="q" placeholder="구글 검색" />
+      <br />
+      <br />
+      <section>
+          <select name="udm">
+            <option value="" selected>[선택]</option>
+            <option value="1">전체</option>
+            <option value="2">이미지</option>
+            <option value="7">동영상</option>
+            <option value="12">쇼핑</option>
+            <option value="14">웹</option>
+            <option value="36">도서</option>
+            <option value="39">짧은동영상</option>
+            <option value="50">AI 모드</option>
+          </select>
+      </section>
+      <p>뉴스의 경우 위를 [선택]으로 두고 아래 [선택2]를 [뉴스]로 지정</p>
+      <section>
+        <input type="radio" name="tbm" value="" checked />[선택2]</li><br />
+        <input type="radio" name="tbm" value="nws" />뉴스</li><br />
+      </section>
+      <br />
+      <button type="submit">검색</button>
+    </form>
+  </body>
+</html>
